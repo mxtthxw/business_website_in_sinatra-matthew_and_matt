@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script src="scripts/jquery-2.2.3.js"></script>
 	<script src="scripts/script.js"></script>
 	<title>Club Overlook</title>
 </head>
 <body>
 
-<div id= "header">
+<div class="wrapper">
+
+	<div id="header">
+		<h1>Club Overlook</h1>
+		<h2 id="subhead">&#183; All Play, No Work &#183;</h2>
+	</div>
+
+	<div id="nav-wrapper">
+		<div id = "nav">
+			<a href="home">Home</a>
+			<a href="schedule">Schedule</a>
+			<a href="gallery">Gallery</a>
+			<a href="about">About</a>
+		</div>
+	</div>
+
+	<div id="article">
+	</div>
+
+	<%= yield %>
+
+	<div id="footer">
+
+		<p id="copyright">
+			Copyright 2016, Team Matt&#8482;
+		</p>
+
+		<form id="mailing-list" method="POST" action="/sign-in">
+				Join Our Mailing List &#183; 
+				<label for="name">Name</label>
+				<input type="text" name="name">
+				<label for="email">Email</label>
+				<input type="email" name="email">
+				<input type="submit">
+			</form>
+	
+	</div>
+
 </div>
-
-<div id ="nav">
-		<a href="home">Home</a>
-		<a href="schedule">Schedule</a>
-		<a href="gallery">Gallery</a>
-		<a href="about">About</a>
-		
-
-</div>
-
-<%= yield %>
-
-
-<div id="footer">
-</div>
-
 
 </body>
 </html>
