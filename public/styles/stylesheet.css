@@ -54,7 +54,7 @@ body {
   display: inline-block;
   font-family: "Iowan Old Style", serif;
   font-size: 15px;
-  letter-spacing: 3px
+  letter-spacing: 3px;
   /*margin: 0 auto;*/
 }
 
@@ -102,16 +102,6 @@ img {
   display: inline;
 }
 
-/*#modal {
-	font-family: "Iowan Old Style", serif;
-	font-size: 14px;
-	opacity: 0.2;
-	background-color: #A45047;
-	color: white;
-	margin-left: 30px;
-	margin-right: 30px;
-}*/
-
 #modal {
 	font-family: "Iowan Old Style", serif;
 	font-size: 12px;
@@ -132,4 +122,26 @@ img {
 
 #about-header {
 	font-size: 30px;
+}
+
+.box {
+  background-color: #E6D779;
+  color: #FEF897;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 100%;
+  font-family: "Iowan Old Style", serif;
+  margin-left: 10%;
+}
+
+.box:nth-child(even) {
+  background-color: #FEF897;
+  color: #E6D779;
+  margin-left: 10%;
+}
+
+.wrapper-calendar {
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
 }
