@@ -15,3 +15,11 @@ end
 get '/about' do
   erb :about
 end
+
+# get '/signin' do
+#   erb :signin
+# end
+
+post '/sign-in' do
+	puts "my params are" + params.inspect
+end

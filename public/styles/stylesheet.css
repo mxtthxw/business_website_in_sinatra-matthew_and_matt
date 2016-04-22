@@ -42,6 +42,7 @@ body {
 	height: 55px;
 	margin-left: 31%;
 	margin-right: 30%;
+	/*position: fixed;*/
 	/*background-color: white;*/
 }
 
@@ -95,11 +96,18 @@ body {
 
 img {
   margin-left: 2px;
-  margin-right: 2px;
+  margin-right: 20px;
   margin-top: 20px;
+  /*padding-right: 10px;*/
   float: left;
   width: 200px;
   display: inline;
+  box-shadow: 5px 5px 5px #E6D779;
+}
+
+.img {
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 #modal {
@@ -144,4 +152,15 @@ img {
   width: 800px;
   display: grid;
   grid-template-columns: repeat(6, 100px);
+}
+
+#image-gallery {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#email_thanks {
+	font-family: "Iowan Old Style", serif;
+	font-size: 40px;
+	text-align: center;
 }
