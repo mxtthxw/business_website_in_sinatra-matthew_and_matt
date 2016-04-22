@@ -134,7 +134,7 @@ img {
 
 .box {
   background-color: #E6D779;
-  color: #FEF897;
+  color: black;
   border-radius: 5px;
   padding: 5px;
   font-size: 100%;
@@ -144,7 +144,7 @@ img {
 
 .box:nth-child(even) {
   background-color: #FEF897;
-  color: #E6D779;
+  color: black;
   margin-left: 10%;
 }
 
