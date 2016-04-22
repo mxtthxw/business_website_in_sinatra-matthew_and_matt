@@ -101,3 +101,28 @@ img {
     width: 200px;
     display: inline;
 }
+
+
+.box {
+  background-color: #E6D779;
+  color: #FEF897;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 100%;
+  font-family: "Iowan Old Style", serif;
+  margin-left: 10%;
+}
+
+.box:nth-child(even) {
+  background-color: #FEF897;
+  color: #E6D779;
+  margin-left: 10%;
+}
+
+.wrapper-calendar {
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-gap: 10px;
+}
+
