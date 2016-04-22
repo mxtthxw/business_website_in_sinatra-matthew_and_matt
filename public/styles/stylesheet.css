@@ -74,7 +74,8 @@ body {
 	background-color: black;
 	color: white;
 	border: 3px solid white;
-	position: fixed;
+	position: absolute;
+	clear: both;
 	/*float: right;*/
 }
 
@@ -95,19 +96,23 @@ body {
 }
 
 img {
-  margin-left: 2px;
+  margin-left: 4px;
   margin-right: 20px;
   margin-top: 20px;
-  /*padding-right: 10px;*/
+  margin-bottom: 10px;
   float: left;
   width: 200px;
   display: inline;
   box-shadow: 5px 5px 5px #E6D779;
 }
 
-.img {
+.img-wrap {
 	margin-left: 3%;
 	margin-right: 3%;
+}
+
+#img6 #img7 #img8 #img9 #img10 {
+	margin-top: 40px;
 }
 
 #modal {
@@ -139,13 +144,16 @@ img {
   padding: 5px;
   font-size: 100%;
   font-family: "Iowan Old Style", serif;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.9;
 }
 
 .box:nth-child(even) {
   background-color: #FEF897;
   color: black;
-  margin-left: 10%;
+  margin-left: 5%;
+  opacity: 0.9;
 }
 
 .wrapper-calendar {
